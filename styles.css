@@ -1,0 +1,51 @@
+body{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183, 222, 238);
+}
+#title{
+    margin-top: 0px;
+    font-size: 3.5rem;
+    color:darkblue
+}
+.mybuttons{
+    border:none;
+    font-size: 4.5rem;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+.choice{
+    font-size: 1.7rem;
+    color:rgb(56, 15, 15);
+}
+#res{
+    margin-top: 10px;
+    font-size: 3rem;
+}
+.won{
+    color: green;
+}
+.lost{
+    color: red;
+}
+.score{
+    color: rgb(138, 74, 6);
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+#reset{
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding:5px;
+    background-color:hwb(90 66% 8%);
+}
+#reset:hover{
+    background-color: hwb(44 22% 8%);
+}
